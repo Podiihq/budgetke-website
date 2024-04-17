@@ -4,7 +4,7 @@ import Check from "../assets/images/check.svg"
 import Illustration2 from "../assets/images/Illustration2.svg"
 import HeroVideo from "../assets/video/BUDGETNKE Landscape.mp4"
 import About from "../assets/images/me.svg"
-import { ArrowDown } from "../components/Icons"
+import { ArrowDown, ArrowRight } from "../components/Icons"
 import ServiceCardComponent from "../components/ServiceCardComponent"
 
 import Image1 from "../assets/illustrations/one.svg"
@@ -14,6 +14,7 @@ import Image4 from "../assets/illustrations/four.svg"
 import Image5 from "../assets/illustrations/five.svg"
 import Image6 from "../assets/illustrations/six.svg"
 import { MasonryComponent } from "../components/MasonryComponent"
+import { VideoCardComponent } from "../components/VideoCard"
 
 
 const HomePage = () => {
@@ -232,6 +233,31 @@ const HomePage = () => {
                     </div>
                 </div>
             </section >
+            <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                <div>
+                    <div className="lg:flex justify-between items-end">
+                        <h1 className="main-heading text-6xl font-bold lg:w-1/2">Watch my {" "}
+                            <span className="text-[#8B5177] main-heading">Videos</span>
+                        </h1>
+                        <div className="flex gap-4">
+                            <div className="">
+                                <a href="" className="flex items-center gap-2 py-3.5 px-6 bg-[#FFC7C8] border border-[#333333] rounded-full mt-6">
+                                    <span className="font-medium">See more Videos</span>
+                                    <ArrowRight />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mt-8">
+                        <VideoCardComponent />
+                    </div>
+                </div>
+            </section>
+            <section className="bg-[#333333]">
+                <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+
+                </div>
+            </section>
         </div >
     )
 }
