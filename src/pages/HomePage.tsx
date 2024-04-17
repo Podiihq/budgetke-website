@@ -3,6 +3,7 @@ import Done from "../assets/images/Done.svg"
 import Check from "../assets/images/check.svg"
 import Illustration2 from "../assets/images/Illustration2.svg"
 import HeroVideo from "../assets/video/BUDGETNKE Landscape.mp4"
+import About from "../assets/images/me.svg"
 import { ArrowDown } from "../components/Icons"
 import ServiceCardComponent from "../components/ServiceCardComponent"
 
@@ -180,7 +181,7 @@ const HomePage = () => {
                             action="Get Template"
                         />
                         <ServiceCardComponent
-                            image={Image3}
+                            image={Image6}
                             title1={"Customizable Budget "}
                             title2={"Template."}
                             description={"If my set templates don’t work for you,I can still tailor your budget to fit your unique needs."}
@@ -188,7 +189,30 @@ const HomePage = () => {
                             link={""}
                             action="Get Template"
                         />
-
+                    </div>
+                </div>
+            </section>
+            <section className="bg-[#333333] text-white">
+                <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                    <div className="lg:grid grid-cols-2 items-center gap-20">
+                        <div>
+                            <h1 className="main-heading text-6xl font-bold">About Me</h1>
+                            <p className="mt-4 text-md">
+                                Step into the world of financial confidence with Barbara the Budgeting Coach, the heart behind BudgetnKe. With a background in Chemical Engineering and an MBA, she brings a mix of analytical smarts and strategic know-how to the table. Picture this: a friendly guide who's been in your shoes, unraveling the complexities of personal finance.
+                            </p>
+                            <p className="mt-2 text-md">
+                                At BudgetnKe, Barbara is ready to delve into the nitty-gritty, offering personalized coaching that's all about making your money work for you. Let's turn those financial goals into a reality together!
+                            </p>
+                            <div className="flex gap-4">
+                                <div className="">
+                                    <a href="" className="flex items-center gap-2 py-3.5 px-6 border border-white rounded-full mt-6">
+                                        <span className="font-medium">Get In Touch</span>
+                                        <ArrowDown />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src={About} alt="" />
                     </div>
                 </div>
             </section>
