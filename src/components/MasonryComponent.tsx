@@ -66,11 +66,11 @@ export const MasonryComponent = () => {
                     description={"The debt elimination strategies worked wonders. I’m now on a path to financial freedom, and I can't thank you enough!"}
                 />
                 <MasonryLayout
-                    userName={"David "}
+                    userName={"Emmanuel "}
                     description={"Once again I am so grateful. Thank you! "}
                 />
                 <MasonryLayout
-                    userName={"David "}
+                    userName={"Oyaso "}
                     description={"I love how customizable and intuitive the financial templates are"}
                 />
                 <MasonryLayout
@@ -78,7 +78,7 @@ export const MasonryComponent = () => {
                     description={"Man, these financial templates are a lifesaver! Budgeting has never been easier."}
                 />
                 <MasonryLayout
-                    userName={"David "}
+                    userName={"Bruce"}
                     description={"BudgetnKe helped me turn my financial life around."}
                 />
                 <MasonryLayout
@@ -86,7 +86,7 @@ export const MasonryComponent = () => {
                     description={"Simple and effective,Budget KE transformed my budget into a tool for success. I feel in control and optimistic about my financial future."}
                 />
                 <MasonryLayout
-                    userName={"David "}
+                    userName={"Daniel"}
                     description={"I was tired of living paycheck to paycheck and knew I needed to make a change. Barbz empowered me to take control of my finances and set myself up for future success."}
                 />
 
