@@ -1,6 +1,7 @@
 import Logo from "../assets/logo/logo.svg"
 import Done from "../assets/images/Done.svg"
 import Check from "../assets/images/check.svg"
+import HeroVideo from "../assets/video/BUDGETNKE Landscape.mp4"
 import { ArrowDown } from "../components/Icons"
 
 
@@ -18,24 +19,24 @@ const HomePage = () => {
                 </nav>
             </section>
             <section>
-                <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 pb-20">
+                <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 pb-20 pt-8">
                     <div className="grid grid-cols-2 items-center">
                         <div>
                             <h1 className="main-heading text-7xl font-bold">Master
                                 <span className="text-[#8B5177] main-heading">Budgeting Skills </span>
                                 and Unlock Financial Freedom.
                             </h1>
-                            <p className="mt-4">Empower your financial journey with personalized guidance from our expert personal finance coach. Navigate budgeting, savings, and investments seamlessly while gaining a supportive community through our engaging social media page.</p>
+                            <p className="mt-4 lg:w-11/12 text-md">Empower your financial journey with personalized guidance from our expert personal finance coach. Navigate budgeting, savings, and investments seamlessly while gaining a supportive community through our engaging social media page.</p>
                             <div className="flex gap-4">
                                 <div className="">
                                     <a href="" className="flex items-center gap-2 py-3.5 px-6 text-white bg-[#333333] rounded-full mt-6">
-                                        <span className="text-white">Get Templates</span>
+                                        <span className="text-white font-medium">Get Templates</span>
                                         <ArrowDown />
                                     </a>
                                 </div>
                                 <div className="">
                                     <a href="" className="flex items-center gap-2 py-3.5 px-6 bg-white border border-[#333333] rounded-full mt-6">
-                                        <span className="">Book a Call</span>
+                                        <span className="font-medium">Book a Call</span>
                                         <ArrowDown />
                                     </a>
                                 </div>
@@ -81,9 +82,14 @@ const HomePage = () => {
                             </p>
                         </div>
                     </div>
-
                 </div>
+                <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
+                    <div>
+                        <video autoPlay muted loop src={HeroVideo} className="w-full border border-[#CFCFCF] rounded-xl"></video>
+                    </div>
+                </section>
             </section>
+
         </div>
     )
 }
