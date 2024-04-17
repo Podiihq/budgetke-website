@@ -13,6 +13,7 @@ import Image3 from "../assets/illustrations/three.svg"
 import Image4 from "../assets/illustrations/four.svg"
 import Image5 from "../assets/illustrations/five.svg"
 import Image6 from "../assets/illustrations/six.svg"
+import { MasonryComponent } from "../components/MasonryComponent"
 
 
 const HomePage = () => {
@@ -216,8 +217,22 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-
-        </div>
+            <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                <div>
+                    <div>
+                        <h1 className="main-heading text-6xl font-bold lg:w-1/2 text-center mx-auto">
+                            <span className="text-[#8B5177] main-heading">Success</span> Stories
+                        </h1>
+                        <p className="mt-4 lg:w-3/5 text-md text-center mx-auto">
+                            Nunc convallis semper justo quis tempor. Praesent molestie, lorem sed imperdiet tempor, libero urna semper.
+                        </p>
+                    </div>
+                    <div className="mt-6">
+                        <MasonryComponent />
+                    </div>
+                </div>
+            </section >
+        </div >
     )
 }
 
