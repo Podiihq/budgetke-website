@@ -16,7 +16,7 @@ const VideoCard = (props: VideoCardProps) => {
             <div>
                 <a href={props.link}>
                     <img src={props.image} alt="" className="border border-[#C5C5C5] rounded-lg" />
-                    <p className="py-3">{props.title}</p>
+                    <p className="py-3 font-semibold">{props.title}</p>
                     <a href={props.link} className="flex items-center gap-2">
                         <span className="text-sm">Watch Video</span>
                         <ArrowRight />

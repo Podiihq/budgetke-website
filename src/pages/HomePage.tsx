@@ -233,7 +233,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </section >
-            <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <section className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
                 <div>
                     <div className="lg:flex justify-between items-end">
                         <h1 className="main-heading text-6xl font-bold lg:w-1/2">Watch my {" "}
@@ -253,9 +253,12 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-            <section className="bg-[#333333]">
+            <section className="bg-[#333333] text-white">
                 <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-
+                    <p className="uppercase text-center">Contact me today</p>
+                    <h1 className="main-heading text-6xl font-bold lg:w-3/4 text-center mx-auto">
+                        Ready to start your journey to financial freedom?
+                    </h1>
                 </div>
             </section>
         </div >
