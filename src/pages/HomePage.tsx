@@ -20,7 +20,7 @@ import { VideoCardComponent } from "../components/VideoCard"
 const HomePage = () => {
     return (
         <div className="bg-[#FFF1F1] text-[#333333]">
-            <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+            <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8">
                 <nav className="lg:flex justify-between items-center">
                     <img src={Logo} alt="" className="w-36 mx-auto lg:mx-0" />
                     <div className="lg:flex gap-6 text-sm hidden">
@@ -31,15 +31,15 @@ const HomePage = () => {
                 </nav>
             </section>
             <section>
-                <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 pb-20 pt-8">
+                <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 pb-20 pt-8">
                     <div className="grid lg:grid-cols-2 items-center gap-5">
                         <div>
                             <h1 className="main-heading text-4xl text-center lg:text-left lg:text-6xl font-bold">Master
                                 <span className="text-[#8B5177] main-heading">Budgeting Skills </span>
                                 and Unlock Financial Freedom.
                             </h1>
-                            <p className="mt-4 lg:w-11/12 text-md text-center lg:text-left">Empower your financial journey with personalized guidance from our expert personal finance coach. Navigate budgeting, savings, and investments seamlessly while gaining a supportive community through our engaging social media page.</p>
-                            <div className="flex gap-4">
+                            <p className="mt-4 xl:w-11/12 text-md text-center lg:text-left">Empower your financial journey with personalized guidance from our expert personal finance coach. Navigate budgeting, savings, and investments seamlessly while gaining a supportive community through our engaging social media page.</p>
+                            <div className="flex gap-4 justify-center lg:justify-start">
                                 <div className="">
                                     <a href="" className="flex items-center gap-2 py-3.5 px-6 text-white bg-[#333333] rounded-full mt-6">
                                         <span className="text-white font-medium">Get Templates</span>
@@ -59,7 +59,7 @@ const HomePage = () => {
                 </div>
             </section>
             <section className="bg-white">
-                <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 lg:py-20">
                     <div className="grid lg:grid-cols-11 gap-4 lg:gap-0">
                         <div className="flex items-start gap-2 col-span-3">
                             <img src={Check} alt="" className="w-10" />
@@ -95,12 +95,12 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+                <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8">
                     <div>
                         <video autoPlay muted loop src={HeroVideo} className="w-full border border-[#CFCFCF] rounded-xl"></video>
                     </div>
                 </section>
-                <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 lg:py-20">
                     <div>
                         <div className="flex flex-col-reverse lg:grid grid-cols-2 items-center gap-20">
                             <img src={Illustration2} alt="" />
@@ -125,7 +125,7 @@ const HomePage = () => {
                 </section>
             </section>
 
-            <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 lg:py-20">
                 <div>
                     <div>
                         <h1 className="main-heading text-4xl lg:text-6xl font-bold lg:w-1/2 text-center mx-auto">My {" "}
@@ -136,7 +136,7 @@ const HomePage = () => {
                             Our services are tailored to meet you where you are in your financial journey. Whether you're starting to budget, looking to build your savings, or ready to dive into investments, we're here to guide you. Our offerings include:
                         </p>
                     </div>
-                    <div className="grid lg:grid-cols-3 gap-4 mt-8">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
                         <ServiceCardComponent
                             image={Image1}
                             title1={"30 Min One-on-One Budget Coaching Sessions "}
@@ -195,7 +195,7 @@ const HomePage = () => {
                 </div>
             </section>
             <section className="bg-[#333333] text-white">
-                <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 lg:py-20">
                     <div className="lg:grid grid-cols-2 items-center gap-20">
                         <div className="mb-6 lg:mb-0">
                             <h1 className="main-heading text-4xl lg:text-6xl font-bold">About Me</h1>
@@ -214,11 +214,11 @@ const HomePage = () => {
                                 </div>
                             </div>
                         </div>
-                        <img src={About} alt="" />
+                        <img src={About} alt="" className="w-full" />
                     </div>
                 </div>
             </section>
-            <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 lg:py-20">
                 <div>
                     <div>
                         <h1 className="main-heading text-4xl lg:text-6xl font-bold lg:w-1/2 text-center mx-auto">
@@ -233,10 +233,10 @@ const HomePage = () => {
                     </div>
                 </div>
             </section >
-            <section className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
+            <section className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 lg:pb-20">
                 <div>
                     <div className="lg:flex justify-between items-end">
-                        <h1 className="main-heading text-4xl lg:text-6xl font-bold lg:w-1/2 text-center">Watch my {" "}
+                        <h1 className="main-heading text-4xl lg:text-6xl font-bold lg:text-left text-center">Watch my {" "}
                             <span className="text-[#8B5177] main-heading">Videos</span>
                         </h1>
                         <div className="lg:flex gap-4 hidden">
@@ -293,7 +293,7 @@ const HomePage = () => {
                 </div>
                 <div className="pb-6">
                     <p className="text-xs text-center">© Copyright 2024 BudgetnKe || All Rights Reserved.</p>
-                    <p className="text-xs text-center">Designed by <a href="" className="underline">Podii Consultants LTD</a></p>
+                    <p className="text-xs text-center mt-4">Designed and Developed by<br />  <a href="https://podiihq.com/" className="underline">Podii Consultants LTD</a></p>
                 </div>
             </section>
         </div >
