@@ -22,8 +22,8 @@ const HomePage = () => {
         <div className="bg-[#FFF1F1] text-[#333333]">
             <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <nav className="lg:flex justify-between items-center">
-                    <img src={Logo} alt="" className="w-36" />
-                    <div className="flex gap-6 text-sm">
+                    <img src={Logo} alt="" className="w-36 mx-auto lg:mx-0" />
+                    <div className="lg:flex gap-6 text-sm hidden">
                         <a href="">Services</a>
                         <a href="">About Us</a>
                         <a href="">Contact Us</a>
@@ -34,11 +34,11 @@ const HomePage = () => {
                 <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 pb-20 pt-8">
                     <div className="grid lg:grid-cols-2 items-center gap-5">
                         <div>
-                            <h1 className="main-heading text-6xl font-bold">Master
+                            <h1 className="main-heading text-4xl text-center lg:text-left lg:text-6xl font-bold">Master
                                 <span className="text-[#8B5177] main-heading">Budgeting Skills </span>
                                 and Unlock Financial Freedom.
                             </h1>
-                            <p className="mt-4 lg:w-11/12 text-md">Empower your financial journey with personalized guidance from our expert personal finance coach. Navigate budgeting, savings, and investments seamlessly while gaining a supportive community through our engaging social media page.</p>
+                            <p className="mt-4 lg:w-11/12 text-md text-center lg:text-left">Empower your financial journey with personalized guidance from our expert personal finance coach. Navigate budgeting, savings, and investments seamlessly while gaining a supportive community through our engaging social media page.</p>
                             <div className="flex gap-4">
                                 <div className="">
                                     <a href="" className="flex items-center gap-2 py-3.5 px-6 text-white bg-[#333333] rounded-full mt-6">
@@ -60,7 +60,7 @@ const HomePage = () => {
             </section>
             <section className="bg-white">
                 <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                    <div className="grid lg:grid-cols-11">
+                    <div className="grid lg:grid-cols-11 gap-4 lg:gap-0">
                         <div className="flex items-start gap-2 col-span-3">
                             <img src={Check} alt="" className="w-10" />
                             <p>
@@ -102,10 +102,10 @@ const HomePage = () => {
                 </section>
                 <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                     <div>
-                        <div className="lg:grid grid-cols-2 items-center gap-20">
+                        <div className="flex flex-col-reverse lg:grid grid-cols-2 items-center gap-20">
                             <img src={Illustration2} alt="" />
                             <div>
-                                <h1 className="main-heading text-6xl font-bold">Why {" "}
+                                <h1 className="main-heading text-4xl lg:text-6xl font-bold">Why {" "}
                                     <span className="text-[#8B5177] main-heading">Choose Me </span>
                                 </h1>
                                 <p className="mt-4 lg:w-11/12 text-md">
@@ -128,7 +128,7 @@ const HomePage = () => {
             <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div>
                     <div>
-                        <h1 className="main-heading text-6xl font-bold lg:w-1/2 text-center mx-auto">My {" "}
+                        <h1 className="main-heading text-4xl lg:text-6xl font-bold lg:w-1/2 text-center mx-auto">My {" "}
                             <span className="text-[#8B5177] main-heading">Products</span> & {" "}
                             <span className="text-[#8B5177] main-heading">Services</span>
                         </h1>
@@ -197,8 +197,8 @@ const HomePage = () => {
             <section className="bg-[#333333] text-white">
                 <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                     <div className="lg:grid grid-cols-2 items-center gap-20">
-                        <div>
-                            <h1 className="main-heading text-6xl font-bold">About Me</h1>
+                        <div className="mb-6 lg:mb-0">
+                            <h1 className="main-heading text-4xl lg:text-6xl font-bold">About Me</h1>
                             <p className="mt-4 text-md">
                                 Step into the world of financial confidence with Barbara the Budgeting Coach, the heart behind BudgetnKe. With a background in Chemical Engineering and an MBA, she brings a mix of analytical smarts and strategic know-how to the table. Picture this: a friendly guide who's been in your shoes, unraveling the complexities of personal finance.
                             </p>
@@ -221,7 +221,7 @@ const HomePage = () => {
             <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div>
                     <div>
-                        <h1 className="main-heading text-6xl font-bold lg:w-1/2 text-center mx-auto">
+                        <h1 className="main-heading text-4xl lg:text-6xl font-bold lg:w-1/2 text-center mx-auto">
                             <span className="text-[#8B5177] main-heading">Success</span> Stories
                         </h1>
                         <p className="mt-4 lg:w-3/5 text-md text-center mx-auto">
@@ -236,10 +236,10 @@ const HomePage = () => {
             <section className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
                 <div>
                     <div className="lg:flex justify-between items-end">
-                        <h1 className="main-heading text-6xl font-bold lg:w-1/2">Watch my {" "}
+                        <h1 className="main-heading text-4xl lg:text-6xl font-bold lg:w-1/2 text-center">Watch my {" "}
                             <span className="text-[#8B5177] main-heading">Videos</span>
                         </h1>
-                        <div className="flex gap-4">
+                        <div className="lg:flex gap-4 hidden">
                             <div className="">
                                 <a href="" className="flex items-center gap-2 py-3.5 px-6 bg-[#FFC7C8] border border-[#333333] rounded-full mt-6">
                                     <span className="font-medium">See more Videos</span>
@@ -251,20 +251,26 @@ const HomePage = () => {
                     <div className="mt-8">
                         <VideoCardComponent />
                     </div>
+                    <div className="flex lg:hidden">
+                        <a href="" className="flex items-center gap-2 py-3.5 px-6 bg-[#FFC7C8] border border-[#333333] rounded-full mt-6">
+                            <span className="font-medium">See more Videos</span>
+                            <ArrowRight />
+                        </a>
+                    </div>
                 </div>
             </section>
             <section className="bg-[#333333] text-white">
                 <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                    <p className="uppercase text-center">Contact me today</p>
-                    <h1 className="main-heading text-6xl font-bold lg:w-3/4 text-center mx-auto">
+                    <p className="uppercase text-center mb-4">Contact me today</p>
+                    <h1 className="main-heading text-4xl lg:text-6xl font-bold lg:w-3/4 text-center mx-auto">
                         Ready to start your journey to financial freedom?
                     </h1>
-                    <div className="flex justify-center mt-10 gap-10">
-                        <div className="flex items-center gap-2">
+                    <div className="flex flex-col lg:flex-row justify-center mt-10 lg:gap-10 gap-4">
+                        <div className="flex items-center gap-2 mx-auto lg:mx-0">
                             <EmailIcon />
                             <p>BudgetnKE(at)gmail.com</p>
                         </div>
-                        <div className="flex items-center gap-2">
+                        <div className="flex items-center gap-2 mx-auto lg:mx-0">
                             <PhoneIcon />
                             <p>+254 798 704 305</p>
                         </div>

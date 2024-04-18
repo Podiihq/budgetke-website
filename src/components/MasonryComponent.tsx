@@ -8,7 +8,7 @@ const MasonryLayout = (props: CardContent) => {
     return (
         <figure className="p-4 mb-2  bg-[#F8F9FA] border border-[#C5C5C5] rounded-lg">
             <p className="text-center text-xs font-bold">{props.userName}</p>
-            <p className="text-center text-sm mt-4">"{props.description}"</p>
+            <p className="text-center text-xs md:text-sm mt-4">"{props.description}"</p>
         </figure>
     );
 };
@@ -44,31 +44,44 @@ export const MasonryComponent = () => {
                     userName={"Aisha "}
                     description={"Thank you for the tool... Am truly grateful I got last year ........ to see my progress and to target paying more."}
                 />
+                <div className="hidden lg:block">
+                    <MasonryLayout
+                        userName={"David "}
+                        description={"Hi Barbz, I have just bumped on your page this morning and I must say, you are changing lives. I am interested in the one month budget template. How can I go about it?"}
+                    />
+                </div>
+                <div className="hidden lg:block">
+                    <MasonryLayout
+                        userName={"Linda A. "}
+                        description={"The educational workshops were insightful. I learned practical tips for managing my finances, and now I feel more confident making financial decisions."}
+                    />
+                </div>
+                <div className="hidden lg:block">
+                    <MasonryLayout
+                        userName={"David "}
+                        description={"I finally feel in control of my finances, thanks to Barbz "}
+                    />
+                </div>
+                <div className="hidden lg:block">
+                    <MasonryLayout
+                        userName={"Linda A. "}
+                        description={"Hi Barbz! Thank you so much I really appreciate your time and effort. Im grateful. I’ve also made a change to the template. I have removed the miscellaneous amount and added it to transport. I use more than ... on transport."}
+                    />
+                </div>
 
-                <MasonryLayout
-                    userName={"David "}
-                    description={"Hi Barbz, I have just bumped on your page this morning and I must say, you are changing lives. I am interested in the one month budget template. How can I go about it?"}
-                />
-                <MasonryLayout
-                    userName={"Linda A. "}
-                    description={"The educational workshops were insightful. I learned practical tips for managing my finances, and now I feel more confident making financial decisions."}
-                />
-                <MasonryLayout
-                    userName={"David "}
-                    description={"I finally feel in control of my finances, thanks to Barbz "}
-                />
-                <MasonryLayout
-                    userName={"Linda A. "}
-                    description={"Hi Barbz! Thank you so much I really appreciate your time and effort. Im grateful. I’ve also made a change to the template. I have removed the miscellaneous amount and added it to transport. I use more than ... on transport."}
-                />
-                <MasonryLayout
-                    userName={"Grace A. "}
-                    description={"The debt elimination strategies worked wonders. I’m now on a path to financial freedom, and I can't thank you enough!"}
-                />
-                <MasonryLayout
-                    userName={"Emmanuel "}
-                    description={"Once again I am so grateful. Thank you! "}
-                />
+                <div className="hidden lg:block">
+                    <MasonryLayout
+                        userName={"Grace A. "}
+                        description={"The debt elimination strategies worked wonders. I’m now on a path to financial freedom, and I can't thank you enough!"}
+                    />
+                </div>
+                <div className="hidden lg:block">
+                    <MasonryLayout
+                        userName={"Emmanuel "}
+                        description={"Once again I am so grateful. Thank you! "}
+                    />
+                </div>
+
                 <MasonryLayout
                     userName={"Oyaso "}
                     description={"I love how customizable and intuitive the financial templates are"}

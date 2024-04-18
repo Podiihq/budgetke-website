@@ -42,6 +42,22 @@ figcaption {
     column-gap: 10px;
 }
 
+/* For Tablet */
+@media (max-width: 768px) {
+    .container {
+        column-count: 3;
+        /* Adjust column count for tablet */
+    }
+}
+
+/* For Mobile */
+@media (max-width: 480px) {
+    .container {
+        column-count: 2;
+        /* Adjust column count for mobile */
+    }
+}
+
 
 @tailwind base;
 @tailwind components;
