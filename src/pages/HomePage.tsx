@@ -20,10 +20,10 @@ import { VideoCardComponent } from "../components/VideoCard"
 const HomePage = () => {
     return (
         <div className="bg-[#FFF1F1] text-[#333333]">
-            <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
+            <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <nav className="lg:flex justify-between items-center">
                     <img src={Logo} alt="" className="w-36" />
-                    <div className="flex gap-6">
+                    <div className="flex gap-6 text-sm">
                         <a href="">Services</a>
                         <a href="">About Us</a>
                         <a href="">Contact Us</a>
@@ -31,10 +31,10 @@ const HomePage = () => {
                 </nav>
             </section>
             <section>
-                <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 pb-20 pt-8">
-                    <div className="grid lg:grid-cols-2 items-center">
+                <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 pb-20 pt-8">
+                    <div className="grid lg:grid-cols-2 items-center gap-5">
                         <div>
-                            <h1 className="main-heading text-7xl font-bold">Master
+                            <h1 className="main-heading text-6xl font-bold">Master
                                 <span className="text-[#8B5177] main-heading">Budgeting Skills </span>
                                 and Unlock Financial Freedom.
                             </h1>
@@ -95,7 +95,7 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
+                <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                     <div>
                         <video autoPlay muted loop src={HeroVideo} className="w-full border border-[#CFCFCF] rounded-xl"></video>
                     </div>
