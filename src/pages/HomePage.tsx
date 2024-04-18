@@ -4,7 +4,7 @@ import Check from "../assets/images/check.svg"
 import Illustration2 from "../assets/images/Illustration2.svg"
 import HeroVideo from "../assets/video/BUDGETNKE Landscape.mp4"
 import About from "../assets/images/me.svg"
-import { ArrowDown, ArrowRight } from "../components/Icons"
+import { ArrowDown, ArrowRight, EmailIcon, FacebookIcon, InstagramIcon, LinkedinIcon, PhoneIcon, YoutubeIcon } from "../components/Icons"
 import ServiceCardComponent from "../components/ServiceCardComponent"
 
 import Image1 from "../assets/illustrations/one.svg"
@@ -259,6 +259,35 @@ const HomePage = () => {
                     <h1 className="main-heading text-6xl font-bold lg:w-3/4 text-center mx-auto">
                         Ready to start your journey to financial freedom?
                     </h1>
+                    <div className="flex justify-center mt-10 gap-10">
+                        <div className="flex items-center gap-2">
+                            <EmailIcon />
+                            <p>BudgetnKE(at)gmail.com</p>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <PhoneIcon />
+                            <p>+254 798 704 305</p>
+                        </div>
+                    </div>
+
+                    <div className="flex gap-6 justify-center mt-10">
+                        <a href="" className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full">
+                            <InstagramIcon />
+                        </a>
+                        <a href="" className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full">
+                            <LinkedinIcon />
+                        </a>
+                        <a href="" className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full">
+                            <FacebookIcon />
+                        </a>
+                        <a href="" className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full">
+                            <YoutubeIcon />
+                        </a>
+                    </div>
+                </div>
+                <div className="pb-6">
+                    <p className="text-xs text-center">© Copyright 2024 BudgetnKe || All Rights Reserved.</p>
+                    <p className="text-xs text-center">Designed by <a href="" className="underline">Podii Consultants LTD</a></p>
                 </div>
             </section>
         </div >
