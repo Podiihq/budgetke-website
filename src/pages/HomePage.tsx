@@ -59,9 +59,10 @@ const HomePage = () => {
                 <div className="">
                   <a
                     href=""
-                    className="flex items-center gap-2 py-3.5 px-6 text-white bg-[#333333] rounded-full mt-6"
+                    className="flex items-center gap-2 py-3.5 px-6 text-white bg-[#333333] rounded-full mt-6
+                    hover:bg-[#FFC7C8] hover:text-[#333333] hover:border border-[#333333]"
                   >
-                    <span className="text-white font-medium">
+                    <span className=" font-medium transform duration-500">
                       Get Templates
                     </span>
                     <ArrowDown />
@@ -70,7 +71,8 @@ const HomePage = () => {
                 <div className="">
                   <a
                     href=""
-                    className="flex items-center gap-2 py-3.5 px-6 bg-white border border-[#333333] rounded-full mt-6"
+                    className="flex items-center gap-2 py-3.5 px-6 bg-white border border-[#333333] rounded-full mt-6
+                    hover:bg-[#FFC7C8]  transform duration-500"
                   >
                     <span className="font-medium">Book a Call</span>
                     <ArrowDown />
@@ -157,7 +159,8 @@ const HomePage = () => {
                   <div className="">
                     <a
                       href=""
-                      className="flex items-center gap-2 py-3.5 px-6 bg-[#FFC7C8] border border-[#333333] rounded-full mt-6"
+                      className="flex items-center gap-2 py-3.5 px-6 bg-[#FFC7C8] border border-[#333333] rounded-full mt-6
+                      hover:bg-[#333333] hover:text-white transform duration-500"
                     >
                       <span className="font-medium">Book a Call</span>
                       <ArrowDown />
@@ -279,7 +282,8 @@ const HomePage = () => {
                 <div className="">
                   <a
                     href=""
-                    className="flex items-center gap-2 py-3.5 px-6 border border-white rounded-full mt-6"
+                    className="flex items-center gap-2 py-3.5 px-6 border border-white rounded-full mt-6
+                    hover:translate-x-2 transform duration-300"
                   >
                     <span className="font-medium">Get In Touch</span>
                     <ArrowDown />
@@ -319,7 +323,8 @@ const HomePage = () => {
               <div className="">
                 <a
                   href=""
-                  className="flex items-center gap-2 py-3.5 px-6 bg-[#FFC7C8] border border-[#333333] rounded-full mt-6"
+                  className="flex items-center gap-2 py-3.5 px-6 bg-[#FFC7C8] border border-[#333333] rounded-full mt-6
+                  hover:bg-[#333333] hover:text-white transform duration-500"
                 >
                   <span className="font-medium">See more Videos</span>
                   <ArrowRight />
