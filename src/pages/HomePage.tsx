@@ -43,7 +43,7 @@ const HomePage = () => {
           <div className="grid lg:grid-cols-2 items-center gap-5">
             <div>
               <h1 className="main-heading text-4xl text-center lg:text-left lg:text-6xl font-bold">
-                Master
+                Master{" "}
                 <span className="text-[#8B5177] main-heading">
                   Budgeting Skills{" "}
                 </span>
