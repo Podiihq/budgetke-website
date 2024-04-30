@@ -33,9 +33,9 @@ const HomePage = () => {
         <nav className="lg:flex justify-between items-center">
           <img src={Logo} alt="" className="w-36 mx-auto lg:mx-0" />
           <div className="lg:flex gap-6 text-sm hidden">
-            <a href="">Services</a>
-            <a href="">About Us</a>
-            <a href="">Contact Us</a>
+            <a href="#templates">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
           </div>
         </nav>
       </section>
@@ -295,7 +295,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#333333] text-white">
+      <section className="bg-[#333333] text-white" id="about">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 lg:py-20">
           <div className="lg:grid grid-cols-2 items-center gap-20">
             <div className="mb-6 lg:mb-0">
@@ -384,7 +384,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#333333] text-white">
+      <section className="bg-[#333333] text-white" id="contact">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <p className="uppercase text-center mb-4">Contact me today</p>
           <h1 className="main-heading text-4xl lg:text-6xl font-bold lg:w-3/4 text-center mx-auto">
