@@ -8,10 +8,11 @@ import {
   ArrowDown,
   ArrowRight,
   EmailIcon,
-  FacebookIcon,
   InstagramIcon,
-  LinkedinIcon,
   PhoneIcon,
+  TelegramIcon,
+  TikTokIcon,
+  WhatsAppIcon,
   YoutubeIcon,
 } from "../components/Icons";
 import ServiceCardComponent from "../components/ServiceCardComponent";
@@ -359,7 +360,7 @@ const HomePage = () => {
             <div className="lg:flex gap-4 hidden">
               <div className="">
                 <a
-                  href=""
+                  href="https://www.youtube.com/@BudgetnKE/videos"
                   className="flex items-center gap-2 py-3.5 px-6 bg-[#FFC7C8] border border-[#333333] rounded-full mt-6
                   hover:bg-[#333333] hover:text-white transform duration-500"
                 >
@@ -402,25 +403,31 @@ const HomePage = () => {
 
           <div className="flex gap-6 justify-center mt-10">
             <a
-              href=""
+              href="https://www.instagram.com/budgetnKE"
               className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full"
             >
               <InstagramIcon />
             </a>
             <a
-              href=""
+              href="https://www.tiktok.com/@budgetnke"
               className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full"
             >
-              <LinkedinIcon />
+              <TikTokIcon />
             </a>
             <a
-              href=""
+              href="https://t.me/BudgetnKE"
               className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full"
             >
-              <FacebookIcon />
+              <TelegramIcon />
             </a>
             <a
-              href=""
+              href="https://api.whatsapp.com/send?phone=254798704305"
+              className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full"
+            >
+              <WhatsAppIcon />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCHUInOB11jhwRH-qWIZ8AoA"
               className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full"
             >
               <YoutubeIcon />
