@@ -58,7 +58,7 @@ const HomePage = () => {
               <div className="flex gap-4 justify-center lg:justify-start">
                 <div className="">
                   <a
-                    href=""
+                    href="#templates"
                     className="flex items-center gap-2 py-3.5 px-6 text-white bg-[#333333] rounded-full mt-6
                     hover:bg-[#FFC7C8] hover:text-[#333333] hover:border border-[#333333]"
                   >
@@ -70,7 +70,7 @@ const HomePage = () => {
                 </div>
                 <div className="">
                   <a
-                    href=""
+                    href="https://calendly.com/budgetnke"
                     className="flex items-center gap-2 py-3.5 px-6 bg-white border border-[#333333] rounded-full mt-6
                     hover:bg-[#FFC7C8]  transform duration-500"
                   >
@@ -158,7 +158,7 @@ const HomePage = () => {
                 <div className="flex gap-4">
                   <div className="">
                     <a
-                      href=""
+                      href="https://calendly.com/budgetnke"
                       className="flex items-center gap-2 py-3.5 px-6 bg-[#FFC7C8] border border-[#333333] rounded-full mt-6
                       hover:bg-[#333333] hover:text-white transform duration-500"
                     >
@@ -175,7 +175,7 @@ const HomePage = () => {
 
       <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 lg:py-20">
         <div>
-          <div>
+          <div id="templates">
             <h1 className="main-heading text-4xl lg:text-6xl font-bold lg:w-1/2 text-center mx-auto">
               My <span className="text-[#8B5177] main-heading">Products</span> &{" "}
               <span className="text-[#8B5177] main-heading">Services</span>
