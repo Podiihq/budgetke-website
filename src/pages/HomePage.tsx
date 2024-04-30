@@ -196,29 +196,20 @@ const HomePage = () => {
                 "During this session, we’ll collaborate to creater a tailored plan just for you."
               }
               price={"KSH 3500"}
-              link={""}
+              link={"https://calendly.com/budgetnke"}
               action="Book a Call"
             />
             <ServiceCardComponent
               image={Image2}
-              title1={"Monthly Goals Tracking."}
-              title2={"Template."}
+              title1={"Anonymous Budget Breakdown Form"}
+              title2={""}
               description={
                 "Keep yourself aligned with your monthly objectives as you track your finances."
               }
-              price={"KSH 1000"}
-              link={""}
-              action="Get Template"
-            />
-            <ServiceCardComponent
-              image={Image3}
-              title1={"Annual Budgeting"}
-              title2={"Template."}
-              description={
-                "Take charge of your finances for the entire year and effortlessly track expenses."
+              price={"Free"}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLSdD5N_DMhCcmGaL2rG8CC6LVxa3LELfDHgC8ymWcatVlm2cew/viewform"
               }
-              price={"KSH 2000"}
-              link={""}
               action="Get Template"
             />
             <ServiceCardComponent
@@ -229,29 +220,75 @@ const HomePage = () => {
                 "The budgeting template simplifies money management, tracks monthly expenses."
               }
               price={"KSH 1000"}
-              link={""}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLSdubk0TAdwBFUrbHV7ROgZMOwAvozgE5MIdyrrK3h_w8sBd4A/viewform"
+              }
               action="Get Template"
             />
             <ServiceCardComponent
-              image={Image5}
-              title1={"Free Debt Tracking "}
-              title2={"Template."}
+              image={Image2}
+              title1={"Savings & Investment Tracking Template."}
+              title2={""}
               description={
-                "Monitor your progress andpave the way to a debt-free life!"
+                "Keep yourself aligned with your monthly objectives as you track your finances."
               }
-              price={"Free"}
-              link={""}
+              price={"KSH 700"}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLScfY7vXuCHmULBSWCa-8xr4TdApcfhmxjcjXcIKVagnkDgXiQ/viewform"
+              }
               action="Get Template"
             />
             <ServiceCardComponent
               image={Image6}
-              title1={"Customizable Budget "}
+              title1={"Monthly Goals Tracking "}
               title2={"Template."}
               description={
                 "If my set templates don’t work for you,I can still tailor your budget to fit your unique needs."
               }
-              price={"Custom"}
-              link={""}
+              price={"KSH 500"}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLSfD1yUau6XscvLfakiSrWirJunZDBTpaqcvaY-APyBBU-1nXw/viewform"
+              }
+              action="Get Template"
+            />
+            <ServiceCardComponent
+              image={Image6}
+              title1={"Savings Challange "}
+              title2={"Template."}
+              description={
+                "If my set templates don’t work for you,I can still tailor your budget to fit your unique needs."
+              }
+              price={"KSH 500"}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLScDf2lNKvosDE3KGO5P8A8hCZsDaOqhcyHw-0jWgcxEBzkOMw/viewform"
+              }
+              action="Get Template"
+            />
+            <ServiceCardComponent
+              image={Image3}
+              title1={"Annual Budgeting"}
+              title2={"Template."}
+              description={
+                "Take charge of your finances for the entire year and effortlessly track expenses."
+              }
+              price={"KSH 2000"}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLSe-wiV-WT-jinLBFLy9owUS7qsaXB5YaF8igIQ42BzdT1XLcA/viewform"
+              }
+              action="Get Template"
+            />
+
+            <ServiceCardComponent
+              image={Image5}
+              title1={"Debt Tracking "}
+              title2={"Template."}
+              description={
+                "Monitor your progress andpave the way to a debt-free life!"
+              }
+              price={"KSH 500"}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLSfKghZEl08o2jVhzomKB8M1cKBP5_IwZVFGyz3xLSulV-1qSA/viewform"
+              }
               action="Get Template"
             />
           </div>
