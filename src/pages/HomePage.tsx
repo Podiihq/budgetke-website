@@ -8,10 +8,11 @@ import {
   ArrowDown,
   ArrowRight,
   EmailIcon,
-  FacebookIcon,
   InstagramIcon,
-  LinkedinIcon,
   PhoneIcon,
+  TelegramIcon,
+  TikTokIcon,
+  WhatsAppIcon,
   YoutubeIcon,
 } from "../components/Icons";
 import ServiceCardComponent from "../components/ServiceCardComponent";
@@ -32,9 +33,9 @@ const HomePage = () => {
         <nav className="lg:flex justify-between items-center">
           <img src={Logo} alt="" className="w-36 mx-auto lg:mx-0" />
           <div className="lg:flex gap-6 text-sm hidden">
-            <a href="">Services</a>
-            <a href="">About Us</a>
-            <a href="">Contact Us</a>
+            <a href="#templates">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
           </div>
         </nav>
       </section>
@@ -58,7 +59,7 @@ const HomePage = () => {
               <div className="flex gap-4 justify-center lg:justify-start">
                 <div className="">
                   <a
-                    href=""
+                    href="#templates"
                     className="flex items-center gap-2 py-3.5 px-6 text-white bg-[#333333] rounded-full mt-6
                     hover:bg-[#FFC7C8] hover:text-[#333333] hover:border border-[#333333]"
                   >
@@ -70,7 +71,7 @@ const HomePage = () => {
                 </div>
                 <div className="">
                   <a
-                    href=""
+                    href="https://calendly.com/budgetnke"
                     className="flex items-center gap-2 py-3.5 px-6 bg-white border border-[#333333] rounded-full mt-6
                     hover:bg-[#FFC7C8]  transform duration-500"
                   >
@@ -158,7 +159,7 @@ const HomePage = () => {
                 <div className="flex gap-4">
                   <div className="">
                     <a
-                      href=""
+                      href="https://calendly.com/budgetnke"
                       className="flex items-center gap-2 py-3.5 px-6 bg-[#FFC7C8] border border-[#333333] rounded-full mt-6
                       hover:bg-[#333333] hover:text-white transform duration-500"
                     >
@@ -175,7 +176,7 @@ const HomePage = () => {
 
       <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 lg:py-20">
         <div>
-          <div>
+          <div id="templates">
             <h1 className="main-heading text-4xl lg:text-6xl font-bold lg:w-1/2 text-center mx-auto">
               My <span className="text-[#8B5177] main-heading">Products</span> &{" "}
               <span className="text-[#8B5177] main-heading">Services</span>
@@ -196,29 +197,20 @@ const HomePage = () => {
                 "During this session, we’ll collaborate to creater a tailored plan just for you."
               }
               price={"KSH 3500"}
-              link={""}
+              link={"https://calendly.com/budgetnke"}
               action="Book a Call"
             />
             <ServiceCardComponent
               image={Image2}
-              title1={"Monthly Goals Tracking."}
-              title2={"Template."}
+              title1={"Anonymous Budget Breakdown Form"}
+              title2={""}
               description={
                 "Keep yourself aligned with your monthly objectives as you track your finances."
               }
-              price={"KSH 1000"}
-              link={""}
-              action="Get Template"
-            />
-            <ServiceCardComponent
-              image={Image3}
-              title1={"Annual Budgeting"}
-              title2={"Template."}
-              description={
-                "Take charge of your finances for the entire year and effortlessly track expenses."
+              price={"Free"}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLSdD5N_DMhCcmGaL2rG8CC6LVxa3LELfDHgC8ymWcatVlm2cew/viewform"
               }
-              price={"KSH 2000"}
-              link={""}
               action="Get Template"
             />
             <ServiceCardComponent
@@ -229,35 +221,81 @@ const HomePage = () => {
                 "The budgeting template simplifies money management, tracks monthly expenses."
               }
               price={"KSH 1000"}
-              link={""}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLSdubk0TAdwBFUrbHV7ROgZMOwAvozgE5MIdyrrK3h_w8sBd4A/viewform"
+              }
               action="Get Template"
             />
             <ServiceCardComponent
-              image={Image5}
-              title1={"Free Debt Tracking "}
-              title2={"Template."}
+              image={Image2}
+              title1={"Savings & Investment Tracking Template."}
+              title2={""}
               description={
-                "Monitor your progress andpave the way to a debt-free life!"
+                "Keep yourself aligned with your monthly objectives as you track your finances."
               }
-              price={"Free"}
-              link={""}
+              price={"KSH 700"}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLScfY7vXuCHmULBSWCa-8xr4TdApcfhmxjcjXcIKVagnkDgXiQ/viewform"
+              }
               action="Get Template"
             />
             <ServiceCardComponent
               image={Image6}
-              title1={"Customizable Budget "}
+              title1={"Monthly Goals Tracking "}
               title2={"Template."}
               description={
                 "If my set templates don’t work for you,I can still tailor your budget to fit your unique needs."
               }
-              price={"Custom"}
-              link={""}
+              price={"KSH 500"}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLSfD1yUau6XscvLfakiSrWirJunZDBTpaqcvaY-APyBBU-1nXw/viewform"
+              }
+              action="Get Template"
+            />
+            <ServiceCardComponent
+              image={Image6}
+              title1={"Savings Challange "}
+              title2={"Template."}
+              description={
+                "If my set templates don’t work for you,I can still tailor your budget to fit your unique needs."
+              }
+              price={"KSH 500"}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLScDf2lNKvosDE3KGO5P8A8hCZsDaOqhcyHw-0jWgcxEBzkOMw/viewform"
+              }
+              action="Get Template"
+            />
+            <ServiceCardComponent
+              image={Image3}
+              title1={"Annual Budgeting"}
+              title2={"Template."}
+              description={
+                "Take charge of your finances for the entire year and effortlessly track expenses."
+              }
+              price={"KSH 2000"}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLSe-wiV-WT-jinLBFLy9owUS7qsaXB5YaF8igIQ42BzdT1XLcA/viewform"
+              }
+              action="Get Template"
+            />
+
+            <ServiceCardComponent
+              image={Image5}
+              title1={"Debt Tracking "}
+              title2={"Template."}
+              description={
+                "Monitor your progress andpave the way to a debt-free life!"
+              }
+              price={"KSH 500"}
+              link={
+                "https://docs.google.com/forms/d/e/1FAIpQLSfKghZEl08o2jVhzomKB8M1cKBP5_IwZVFGyz3xLSulV-1qSA/viewform"
+              }
               action="Get Template"
             />
           </div>
         </div>
       </section>
-      <section className="bg-[#333333] text-white">
+      <section className="bg-[#333333] text-white" id="about">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 lg:py-20">
           <div className="lg:grid grid-cols-2 items-center gap-20">
             <div className="mb-6 lg:mb-0">
@@ -322,7 +360,7 @@ const HomePage = () => {
             <div className="lg:flex gap-4 hidden">
               <div className="">
                 <a
-                  href=""
+                  href="https://www.youtube.com/@BudgetnKE/videos"
                   className="flex items-center gap-2 py-3.5 px-6 bg-[#FFC7C8] border border-[#333333] rounded-full mt-6
                   hover:bg-[#333333] hover:text-white transform duration-500"
                 >
@@ -346,7 +384,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#333333] text-white">
+      <section className="bg-[#333333] text-white" id="contact">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <p className="uppercase text-center mb-4">Contact me today</p>
           <h1 className="main-heading text-4xl lg:text-6xl font-bold lg:w-3/4 text-center mx-auto">
@@ -365,25 +403,31 @@ const HomePage = () => {
 
           <div className="flex gap-6 justify-center mt-10">
             <a
-              href=""
+              href="https://www.instagram.com/budgetnKE"
               className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full"
             >
               <InstagramIcon />
             </a>
             <a
-              href=""
+              href="https://www.tiktok.com/@budgetnke"
               className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full"
             >
-              <LinkedinIcon />
+              <TikTokIcon />
             </a>
             <a
-              href=""
+              href="https://t.me/BudgetnKE"
               className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full"
             >
-              <FacebookIcon />
+              <TelegramIcon />
             </a>
             <a
-              href=""
+              href="https://api.whatsapp.com/send?phone=254798704305"
+              className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full"
+            >
+              <WhatsAppIcon />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCHUInOB11jhwRH-qWIZ8AoA"
               className="p-3 border border-[#666666] hover:bg-[#666666] rounded-full"
             >
               <YoutubeIcon />

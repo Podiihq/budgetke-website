@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ArrowRight } from "./Icons";
 
 interface ServiceCardProps {
@@ -12,7 +13,7 @@ interface ServiceCardProps {
 
 const ServiceCardComponent = (props: ServiceCardProps) => {
   return (
-    <div>
+    <Link to={props.link}>
       <div
         className="bg-white p-6 border border-[#C5C5C5] rounded-lg
         hover:-translate-y-2 transform duration-300 cursor-pointer"
@@ -36,7 +37,7 @@ const ServiceCardComponent = (props: ServiceCardProps) => {
           <ArrowRight />
         </a>
       </div>
-    </div>
+    </Link>
   );
 };
 

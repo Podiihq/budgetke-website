@@ -34,13 +34,17 @@ export const VideoCardComponent = () => {
         title={
           "What You Need to Know About the Central Bank' Infrastructure Bond Offering: 8.5 Year...  "
         }
-        link={""}
+        link={"https://www.youtube.com/watch?v=bCHRX7HsnyE&t=5s"}
       />
-      <VideoCard image={Image} title={"Money Lesson from 2023"} link={""} />
+      <VideoCard
+        image={Image}
+        title={"Money Lesson from 2023"}
+        link={"https://www.youtube.com/watch?v=Atzvv0sdhIQ"}
+      />
       <VideoCard
         image={Image2}
         title={"Introducing Our 2024 Monthly Goals Tracking Template! 🚀💰"}
-        link={""}
+        link={"https://www.youtube.com/watch?v=QuwWm8ezzPA&t=1s"}
       />
     </div>
   );
