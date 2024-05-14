@@ -3,14 +3,12 @@
 * {
     font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
-    /* color: #333333; */
 }
 
 .main-heading {
     font-family: "Laila", serif;
 }
 
-/* styles.css */
 
 figure {
     margin: 0;
@@ -20,7 +18,7 @@ figure {
     break-inside: avoid;
 }
 
-figure > img {
+figure>img {
     grid-row: 1 / -1;
     grid-column: 1;
 }
@@ -47,7 +45,6 @@ figcaption {
 @media (max-width: 820px) {
     .container {
         column-count: 3;
-        /* Adjust column count for tablet */
     }
 }
 
@@ -55,7 +52,6 @@ figcaption {
 @media (max-width: 480px) {
     .container {
         column-count: 2;
-        /* Adjust column count for mobile */
     }
 }
 
