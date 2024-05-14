@@ -319,7 +319,7 @@ const HomePage = () => {
               <div className="flex gap-4">
                 <div className="">
                   <a
-                    href=""
+                    href="#contact"
                     className="flex items-center gap-2 py-3.5 px-6 border border-white rounded-full mt-6
                     hover:translate-x-2 transform duration-300"
                   >
