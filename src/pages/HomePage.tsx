@@ -3,7 +3,7 @@ import Done from "../assets/images/Done.svg";
 import Check from "../assets/images/check.svg";
 import Illustration2 from "../assets/images/Illustration2.svg";
 import HeroVideo from "../assets/video/BUDGETNKE Landscape.mp4";
-import About from "../assets/images/me.svg";
+import About from "../assets/images/about.svg";
 import {
   ArrowDown,
   ArrowRight,
@@ -329,7 +329,7 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
-            <img src={About} alt="" className="w-full" />
+            <img src={About} alt="" className="w-full rounded-lg" />
           </div>
         </div>
       </section>
