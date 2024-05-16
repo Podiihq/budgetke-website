@@ -341,8 +341,7 @@ const HomePage = () => {
               Stories
             </h1>
             <p className="mt-4 lg:w-3/5 text-md text-center mx-auto">
-              Nunc convallis semper justo quis tempor. Praesent molestie, lorem
-              sed imperdiet tempor, libero urna semper.
+              Customer voices, our pride. Hear their stories, feel their satisfaction.
             </p>
           </div>
           <div className="mt-6">
