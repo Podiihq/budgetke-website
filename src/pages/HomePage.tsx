@@ -182,9 +182,9 @@ const HomePage = () => {
               <span className="text-[#8B5177] main-heading">Services</span>
             </h1>
             <p className="mt-4 lg:w-3/5 text-md text-center mx-auto">
-              Our services are tailored to meet you where you are in your
+              My services are tailored to meet you where you are in your
               financial journey. Whether you're starting to budget, looking to
-              build your savings, or ready to dive into investments, we're here
+              build your savings, or ready to dive into investments, I'm here
               to guide you. Our offerings include:
             </p>
           </div>
@@ -341,7 +341,7 @@ const HomePage = () => {
               Stories
             </h1>
             <p className="mt-4 lg:w-3/5 text-md text-center mx-auto">
-              Customer voices, our pride. Hear their stories, feel their satisfaction.
+              Customer voices. Hear their stories, feel their satisfaction.
             </p>
           </div>
           <div className="mt-6">
