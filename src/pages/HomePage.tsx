@@ -438,7 +438,7 @@ const HomePage = () => {
             © Copyright 2024 BudgetnKe || All Rights Reserved.
           </p>
           <p className="text-xs text-center mt-4">
-            Designed and Developed by
+            Crafted by
             <br />{" "}
             <a href="https://podiihq.com/" className="underline">
               Podii Consultants LTD
